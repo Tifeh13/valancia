@@ -44,12 +44,15 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar Start -->
-        <nav
-            class="navbar navbar-expand-lg bg-white navbar-light d-flex justify-content-around sticky-top px-4 px-lg-5 py-lg-0">
-            <a href="index.html" class="navbar-brand">
+       <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light d-flex 
+            justify-content-around sticky-top px-4 px-lg-5 py-lg-0 space"  ;">
+            <a href="index.html" class="navbar-brand space" >
                 <img src="img/ValanciaLogo.jpg" alt="Valancia School Logo">
             </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
@@ -59,7 +62,8 @@
                     <a href="#contact" class="nav-item nav-link">Contact Us</a>
                 </div>
             </div>
-        </nav>
+</nav>
+
         <!-- Navbar End -->
 
         <!-- First Section Start-->
@@ -70,9 +74,9 @@
                         <div class="row justify-content-center ">
                             <div class="col-lg-10 text-center ">
 
-                                <h1 class="heading text-white text-top mb-0" data-aos="fade-up" data-aos-delay="100">
-                                    <img src="img/Valencia schools Logo.png" alt="Valancia School" style="width: 70px;">
-                                    Entrance Examination
+                                <h1 class="heading text-white text-top mb-0 hello" data-aos="fade-up" data-aos-delay="100">
+                                    <img src="img/Valencia schools Logo.png" alt="Valancia School" style="width: 77px;">
+                                    ENTRANCE EXAMINATION
                                 </h1>
                                 <h1 class=" heading text-white yeah text-uppercase" data-aos="fade-up"
                                     data-aos-delay="100">
@@ -80,13 +84,18 @@
                                 <h5 class="mb-4 heading text-white text-bottom" data-aos="fade-up" data-aos-delay="100">
                                     Admission Forms can be Purchased at the college Premises for &#8358;10,000 or Online
                                     by Visiting </h5>
-                                <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a
-                                        href="http://valenciacollege.eduporch.com/applicant"
-                                        class="btn btn-secondary">http://valenciacollege.eduporch.com/applicant</a>
-                                </p>
-                                <button class="btn rounded py-sm-3 px-sm-5 me-3 animated slideInLeft mt-5"
-                                    style="background-color: #880002; color: #ffffff;">Enroll
-                                    Now</button>
+                                    <p class="mb-0" data-aos="fade-up" data-aos-delay="300">
+                                        <a href="http://valenciacollege.eduporch.com/applicant" 
+                                        class="btn btn-secondary" 
+                                        target="_blank">http://valenciacollege.eduporch.com/applicant</a>
+                                    </p>
+
+                                    <a href="http://valenciacollege.eduporch.com/applicant" target="_blank">
+                                        <button class="btn rounded py-sm-3 px-sm-5 me-3 animated slideInLeft mt-5" style="background-color: #880002; color: #ffffff;">
+                                            Enroll Now
+                                        </button>
+                                    </a>
+
                             </div>
                         </div>
                     </div>
@@ -96,7 +105,7 @@
                     <h4 class="text-center">Exam Date & Location</h4>
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="py-4 px-5">
-                            <h6 class="text-center">Day1</h6>
+                            <h6 class="text-center red-text" style="color: red;">Day1</h6>
                             <span class=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -140,7 +149,7 @@
                         </div>
                         <span class="d-block border-2 border-end border-dark break"></span>
                         <div class="py-4 px-5">
-                            <h6 class="text-center">Day2</h6>
+                            <h6 class="text-center" style="color: red;">Day2</h6>
                             <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -192,78 +201,64 @@
 
 
         <!-- About Start -->
-        <div id="about" class="container-xxl py-5 px-5 mt-5" style="width: 80%;">
-            <div class="container">
-                <div class="text-left mb-5 pt-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <div id="about" class="container-xxl py-5 px-5 mt-5" style="width: 90%;">
+            <div class="container ">
+                <div class="text-left pt-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3" style="color: #FF6568; font-size: 38px; font-weight: 700;">About us</h1>
-                    <p style="font-size: 14px; font-weight: 400;">What is Valencia all about and see the standards we
-                        have set for ourselves </p>
+                    <p style="font-size: 14px; font-weight: 400;">What is Valencia all about and see the standards we have set for ourselves </p>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row">
+                    <div class="col-lg-4 wow fadeInUp " data-wow-delay="0.5s"> <!-- Order changed for tablet view -->
                         <div>
                             <div>
-                                <img src="img/owner.png" alt="" class="">
+                                <img src="img/owner.png" alt="" class="img-fluid">
                             </div>
                             <h6 class="text-dark mb-1">Engr. Goodness Morakinyo </h6>
                             <small>Director</small>
                         </div>
                     </div>
-                    <div class="col-lg-8 wow fadeInUp about-text" data-wow-delay="0.1s">
-                        <p>Valencia College is an independent co-educational boarding and day school for children aged
-                            10years and above. At
-                            Valencia College, we offer a broad and balanced education within a friendly, caring and
-                            happy environment.
-                            At Valencia College the curriculum offered is based on the English national curriculum with
-                            good reference made to
-                            indigenous learning experience. In addition, our approach to education creates a strong base
-                            for future development.
-                            This encourages a culture of independent learning that challenges students to accept greater
-                            responsibility for their
-                            learning.
-                            At Valencia College, our highly personalised learner system provides a distinct process,
-                            through which student’s
-                            strength, potential, ability and interest are identified and harnessed. <a
-                                href="http://">Read More</a>
-                        </p>
+                    <div class="col-lg-8 pt-3 wow fadeInUp about-text" data-wow-delay="0.1s">
+                        <p class="note">Valencia College is an independent co-educational boarding and day school for children aged 10 years and above. At Valencia College, we offer a broad and balanced education within a friendly, caring and happy environment. At Valencia College the curriculum offered is based on the English national curriculum with good reference made to indigenous learning experience. In addition, our approach to education creates a strong base for future development. This encourages a culture of independent learning that challenges students to accept greater responsibility for their learning. At Valencia College, our highly personalized learner system provides a distinct process, through which student’s strength, potential, ability and interest are identified and harnessed. <a href="https://valenciaschools-ng.com/college/school-board-of-governors/" target="_blank">Read More</a></p>
                     </div>
+
                 </div>
             </div>
         </div>
+
         <!-- About End -->
 
         <!-- PhotoBook Start-->
         <div id="news" class="container-xxl py-5 px-5 mt-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 style="margin-left: 60%; color: #FF6568;">Glance At Valencia College</h1>
-                    <h3 style="margin-left: 70%; font-size: 18px; font-weight: 400;">A quick look at our school</h3>
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="width: 90%;">
+                    <h1 class="meet">Glance At Valencia College</h1>
+                    <h3 class="meeting">A quick look at our school</h3>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 space" ">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="classes-item">
-                            <div class=" w-75 mx-auto p-3">
+                        <div class="classes-item"  style="padding: 5px;">
+                            <div class=" w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img1.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="classes-item">
-                            <div class="  w-75 mx-auto p-3">
+                            <div class="  w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img3.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="classes-item">
-                            <div class=" w-75 mx-auto p-3">
+                            <div class=" w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img4.jpg" alt="">
                             </div>
 
@@ -271,7 +266,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid " src="img/img5.png" alt="">
                             </div>
 
@@ -279,28 +274,28 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img6.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img7.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img8.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75 mx-auto p-3">
+                            <div class="w-75 mx-auto ">
                                 <img class="img-fluid" src="img/img9.png" alt="">
                             </div>
                         </div>
@@ -312,16 +307,41 @@
         <!-- PhotoBook End -->
 
         <!-- Testimonial Start -->
-        <div id="testimonal" class="container-xxl py-5 px-5 mt-5" style="width: 80%;">
-            <div class="container">
-                <div class="text-left mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <div id="testimonial" class="container-xxl py-5 px-5 mt-5" style="width: 90%;">
+            <div class="container d-flex flex-wrap">
+                <div class="text-left mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 50%; flex: 0 0 50%;">
                     <h1 class="mb-3" style="color: #FF6568; font-size: 38px; font-weight: 700;">Testimonial</h1>
                     <p style="font-size: 14px; font-weight: 400;">What people have to say about Valencia College.</p>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div>
-                        <div>
-                            <img src="img/testimonal.png" alt="" class="">
+                <div class="container-fluid p-0 mb-5 flex-grow-1 position-relative baby" style="background-color: #880002;">
+                    <div class="owl-carousel header-carousel position-relative h-100">
+                        <div class="owl-carousel-item position-relative h-100">
+                            <div class="embed-responsive embed-responsive-16by9 h-100">
+                                <iframe class="embed-responsive-item fixeds" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                                <div class="container">
+                                    <div class="row justify-content-end">
+                                        <div class="col-10 col-lg-7 ms-5">
+                                            <p class="fs-5 fw-medium text-white mb-4 pb-2 notice">Delight radiates from the baby's face as he engages with colorful preschool toys, expressing pure joy and curiosity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative h-100">
+                            <div class="embed-responsive embed-responsive-16by9 h-100 baby">
+                                <iframe class="embed-responsive-item fixeds" src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
+                            </div>
+                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+                                <div class="container">
+                                    <div class="row justify-content-end">
+                                        <div class="col-10 col-lg-7 ms-5">
+                                            <p class="fs-5 fw-medium text-white mb-4 pb-2 notice" >The baby showcases impressive writing skills at preschool, confidently crafting letters and drawings with enthusiasm and precision.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -330,38 +350,38 @@
         <!-- Testimonial End -->
 
         <!-- Award Start-->
-        <div id="photobook" class="container-xxl py-5 px-5 mt-5">
+        <div id="photobook" class="container-xxl py-5 px-5 mt-5" >
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 style=" color: #FF6568;">Our Awards & Recognitions</h1>
-                    <h3 style="font-size: 18px; font-weight: 400;">We pride ourselves in being one of
+                <h1 class="regs">Our Awards & Recognitions</h1>
+                    <h3 class="regss">We pride ourselves in being one of
                         the best college in west Africa and we have proof</h3>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="classes-item">
-                            <div class=" w-75  p-3">
+                        <div class="classes-item d-flex justify-content-center">
+                            <div class="w-100">
                                 <img class="img-fluid" src="img/award1.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="classes-item">
-                            <div class="  w-75  p-3">
+                            <div class="w-100">
                                 <img class="img-fluid" src="img/award2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="classes-item">
-                            <div class="w-75  p-3">
+                            <div class="w-100">
                                 <img class="img-fluid" src="img/award3.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="classes-item">
-                            <div class=" w-75  p-3">
+                            <div class="w-100">
                                 <img class="img-fluid" src="img/award4.png" alt="">
                             </div>
 
@@ -409,66 +429,119 @@
         </div>
         <!-- Award End -->
 
+
+        <!-- News & Blogs starts -->
+              <div class="container-xxl py-5 px-5 mt-5" style="width: 89%";>
+                    <div class="news">
+                            <div class="news-1  wow fadeInUp">
+                                <h1>News & Blogs</h1>
+                                <p>Check out our lastest in the world of valencia</p>
+                            </div>
+                            
+                            <div class="news-2">
+                                <p>See all news></p>
+                            </div>
+                        </div>
+                        <div class="blogs  wow fadeInUp">
+                            <div class="blog-1  wow fadeInUp">
+                                <img src="img/image 15.png" alt="">
+                                <h6>National Mathematical Award Center!</h6>
+                                <a href="https://valenciaschools-ng.com/college/national-mathematical-centre-award/"   target="_blank">We were recently awarded with the best national mathematical award center by the mathematical award committee due to our student’s excellent performance in mathematics</a>
+                                <p>DECEMBER 08, 2023</p>
+                            </div>
+                            <div class="blog-1  wow fadeInUp">
+                                <img src="img/image 16.png" alt="">
+                                <h6>Examination Updates</h6>
+                                <a href=" https://valenciaschools-ng.com/college/examination-updates/"   target="_blank">We were recently awarded with the best national mathematical award center by the mathematical award committee due to our student’s excellent performance in mathematics</a>
+                                <p>DECEMBER 08, 2023</p>
+                            </div>
+                            <div class="blog-1  wow fadeInUp">
+                                <img src="img/image 17.png" alt="">
+                                <h6>Valencia Students Wins Cowbell National Award</h6>
+                                <a href="https://valenciaschools-ng.com/college/valencia-student-wins-cowbell-national-competition/ "   target="_blank">We were recently awarded with the best national mathematical award center by the mathematical award committee due to our student’s excellent performance in mathematics</a>
+                                <p>DECEMBER 08, 2023</p>
+                            </div>
+                        </div>
+                       
+              </div>
+        <!-- News & Blogs ends -->
+
+
+        <!-- Ready To Get starts -->
+       <div class="get">
+                <div class="get-last">
+            <div class="ready  wow fadeInUp">
+                        <div class="ready-in">
+                            <div class="get-1 animated slideInLeft">
+                                <img src="img/group 3.png" alt="">
+                            </div>
+                        <div class="get-1-2">
+                        <div class="get-2 animated slideInRight">
+                                <h1>Ready To Get The Best Out Of Your Children?</h1>
+                                <p>We are an academic institute whose fundamentals is ensuring that your children can be the best in all spheres of their lives. Enroll to take that next step now!</p>
+                                    
+                                <div class="okay">
+                                < <a href="http://valenciacollege.eduporch.com/applicant" target="_blank">
+                                        <button class="btn rounded py-sm-3 px-sm-5 me-3 animated slideInLeft mt-5" style="background-color: #880002; color: #ffffff;">
+                                            Enroll Now
+                                        </button>
+                                    </a>
+                                </div>
+                                    
+                            </div>
+                        </div>
+
+                        </div>
+                </div>
+
+        </div>
+       </div>
+
+        <!-- Ready To Get ends -->
+
         <!-- Contact Start -->
         <div class="container-xxl py-5 px-5">
-            <div class="container">
-                <div class="bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="h-100 d-flex flex-column justify-content-center p-5">
-                                <h1 class="mb-4">Contact Us</h1>
-                                <form>
+            <div class="container animated slideInRight">
+                <h1 style="text-align: center" >Contact Us</h1>
+                <p style="text-align: center" >Got a questions for us? Send us an mail.</p>
+                <div>
+                    <div class="row">
+                        <div class="col wow fadeIn align-items-center" data-wow-delay="0.1s">
+                            <div class=" d-flex flex-column justify-content-center p-3">
+                               <div class="form">
+                                    <div class="form-2">
+                                        <div class="form-3">
+                                        <form>
                                     <div class="row g-3">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-12">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="gname"
+                                                <input type="text" class="form-control border-3" id="gname"
                                                     placeholder="Gurdian Name">
-                                                <label for="gname">Gurdian Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="gmail"
-                                                    placeholder="Gurdian Email">
-                                                <label for="gmail">Gurdian Email</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cname"
-                                                    placeholder="Child Name">
-                                                <label for="cname">Child Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cage"
-                                                    placeholder="Child Age">
-                                                <label for="cage">Child Age</label>
+                                                <label for="gname">Your Email</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control border-0"
+                                                <textarea class="form-control border-3"
                                                     placeholder="Leave a message here" id="message"
                                                     style="height: 100px"></textarea>
-                                                <label for="message">Message</label>
+                                                <label for="message">Your inquiry</label>
                                             </div>
                                         </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
-                                        </div>
+                                        <div class="okay">
+                                            <button class="btn rounded py-sm-3 px-sm-5 me-3 animated slideInLeft mt-2"
+                                                    style="background-color: #880002; color: #ffffff;">Send</button>
+                                            </div>
                                     </div>
                                 </form>
+                                        </div>
+                                    </div>
+                               </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-                            <div class="position-relative h-100">
-                                <img class="position-absolute w-100 h-100 rounded" src="img/appointment.jpg"
-                                    style="object-fit: cover;">
-                            </div>
-                        </div>
+                        
                     </div>
+
                 </div>
             </div>
         </div>
@@ -477,62 +550,52 @@
 
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid text-white-50 footer pt-5 mt-5 wow fadeIn spacing" style="background-color: #880002; data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Get In Touch</h3>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <img src="img/ValanciaLogo.jpg" alt="Valancia School Logo">
+                        <p class="mb-2 mt-3 text-white">Opposite Kolapo Ishola GRA Second Gate,</p>
+                        <p class="mb-2 text-white">General Gas, akobo, Ibadan</p>
+                        <div class="d-flex pb-2">
+                            <a class="btn btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
+
+                        <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>07884939023</p>
+                        <p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>info@valencia.com</p>
+                        
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Quick Links</h3>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <h3 class="text-white mb-4">Study</h3>
+                        <a class="btn text-white" href="">Kindergerten</a>
+                        <br>
+                        <a class="btn text-white" href="">Primary</a>
+                        <br>
+                        <a class="btn text-white" href="">College</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Photo Gallery</h3>
-                        <div class="row g-2 pt-2">
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-1.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-2.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-3.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-4.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-5.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/classes-6.jpg" alt="">
-                            </div>
-                        </div>
+                        <h3 class="text-white mb-4">About Us</h3>
+                        <a class="btn  text-white" href="">Our Mission</a>
+                        <br>
+                        <a class="btn text-white" href="">Our Vision</a>
+                        <br>
+                        <a class="btn text-white" href="">Partners</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h3 class="text-white mb-4">Newsletter</h3>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
+                        <h3 class="text-white mb-4">Support</h3>
+                        <a class="btn  text-white" href="">Fees</a>
+                        <br>
+                        <a class="btn text-white" href="">Admissions</a>
+                        <br>
+                        <a class="btn  text-white" href="">FAQS</a>
+                        <br>
+                        <a class="btn  text-white" href="">Contant Us</a>
                     </div>
+                    
+                    
                 </div>
             </div>
 
@@ -542,49 +605,51 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
+        </div>
 
-    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header p-3">
-                    <div class="text-center mb-3">
-                        <h5 class="mb-0" id="exampleModalLabel">Hello There!</h5>
-                        <p class="mb-0" style="font-size: 14px; font-weight: 400;">Please fill in your details in case we need to reach out
-                            to you</p>
+        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="w-70">
+                            <div class="modal-header" style="padding: 1rem 3rem;">
+                        <div class="text-center mb-3">
+                            <h5 class="mb-0 pt-3" id="exampleModalLabel">Hello There!</h5>
+                            <p class="mb-0" style="font-size: 13px; font-weight: 400;">Please fill in your details in case we need to reach out
+                                to you</p>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            id="closeSort" style="padding: 1.5rem 1.5rem; margin: -4.5rem -2.5rem -0.5rem auto;"></button>
                     </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-                        id="closeSort"></button>
+
+                    <form class="tablelist-form" method="POST" action="register.php" autocomplete="off">
+                        <div class="modal-body " style="padding: 1rem 3rem;">
+                            <div class="mb-3">
+                                <label for="full-name" class="form-label">Full Name</label>
+                                <input type="text" id="full-name" name="full_name" class="form-control"
+                                    placeholder="Full Name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="d-flex justify-content-end">
+                                <button type="submit"  class="btn rounded py-sm-2 px-sm-5 me-3 w-100 animated slideInLeft"
+                                    style="background-color: #880002; color: #ffffff;">Submit</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-                <form class="tablelist-form" method="POST" action="register.php" autocomplete="off">
-                    <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="full-name" class="form-label">Full Name</label>
-                            <input type="text" id="full-name" name="full_name" class="form-control"
-                                placeholder="Full Name">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="d-flex justify-content-end">
-                            <button type="submit"  class="btn rounded py-sm-2 px-sm-5 me-3 w-100 animated slideInLeft"
-                                style="background-color: #880002; color: #ffffff;">Submit</button>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
 
 
     <!-- JavaScript Libraries -->
