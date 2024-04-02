@@ -106,11 +106,14 @@
                         <div class="aboutss">
                             <div class="col-8  px-5 py-3 rounded mx-auto position-absolute event mb-5"
                                 style="background: #FFF6F7; ">
-                                <h4 class="text-center exam">Exam Date & Location</h4>
-                                <div class="d-flex justify-content-center align-items-center">
+                                <div class="bes">
+                                    <h4 class="text-center" style="font-weight:700; font-size:15px">Exam Date & Location
+                                    </h4>
+                                </div>
+                                <div class="d-flex .justify-content-center align-items-center">
                                     <div class="likes">
                                         <h6 class="day" style="color: red;">Day1</h6>
-                                        <span><svg class="need" viewBox="0 0 24 24" fill="none"
+                                        <span class="needing"><svg class="need" viewBox="0 0 24 24" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="M12 13.43C13.7231 13.43 15.12 12.0331 15.12 10.31C15.12 8.58687 13.7231 7.19 12 7.19C10.2769 7.19 8.88 8.58687 8.88 10.31C8.88 12.0331 10.2769 13.43 12 13.43Z"
@@ -121,7 +124,9 @@
                                             </svg>
                                             Oluyole Campus
                                         </span>
-                                        <br>
+
+                                        &nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
                                         <span>
                                             <svg class="need" viewBox="0 0 24 24" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -168,8 +173,8 @@
                                                     stroke="#929292" stroke-width="1.5" />
                                             </svg>
                                             Akobo Campus
-                                        </span>
-                                        <br>
+                                        </span>&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
                                         <span>
                                             <svg class="need" viewBox="0 0 24 24" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">

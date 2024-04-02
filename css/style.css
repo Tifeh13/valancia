@@ -770,7 +770,7 @@ h6,
 }
 
 .event {
-  bottom: -90px !important;
+  bottom: -113px !important;
   z-index: 100;
   width: 90%;
 }
@@ -1039,12 +1039,14 @@ h6,
   width: 24px;
   height: 24px;
 }
-.exam{
-  font-size: 12px;
-}
+
 .day{
   color: red;
   text-align: center;
+}
+.bes h4{
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media (max-width:800px){
@@ -1127,9 +1129,6 @@ h6,
     font-size: 9px;
     text-align: left;
   }
-  .exam{
-    font-size: 12px;
-  }
   .day{
     color: red;
     font-size: 10px;
@@ -1150,6 +1149,9 @@ h6,
   .need{
     width: 12px;
     height: 12px;
+  }
+  .needing{
+    font-size: 11px;
   }
 }
 #photobook{
